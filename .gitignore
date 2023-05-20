@@ -1,0 +1,101 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Executables #
+###############
+bin/
+deploy/
+
+# Package Files #
+################
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+__pycache__/
+
+# Installer logs #
+##################
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports #
+###############################
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations #
+###############
+*.mo
+*.pot
+
+# Django #
+##########
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask #
+#########
+instance/
+
+# Sphinx documentation #
+#######################
+docs/_build/
+
+# PyBuilder #
+############
+target/
+
+# Jupyter Notebook #
+###################
+.ipynb_checkpoints/
+.ipynb_checkpoints/*
+
+# IPython #
+###########
+profile_default/
+ipython_config.py
+
+# Environments #
+###############
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS #
+#########
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Vim #
+#######
+*.swp
